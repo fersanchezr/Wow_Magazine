@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Eiko-Medium';
+    src: url('/fonts/PPEiko-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Eiko-Thin';
+    src: url('/fonts/PPEiko-Thin.otf');
+}
+
+@font-face {
+    font-family: 'Eiko-Heavy';
+    src: url('/fonts/PPEiko-Heavy.otf');
+}

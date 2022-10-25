@@ -1,0 +1,10 @@
+.collapseText {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 0.875rem;
+}
+
+.collapseText:hover {
+  color: #e32b6c;
+}

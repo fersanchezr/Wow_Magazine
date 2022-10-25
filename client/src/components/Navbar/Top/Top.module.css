@@ -1,0 +1,40 @@
+.burgerMenu {
+  padding: 0;
+  border: 0 !important;
+  display: inline-flex;
+  appearance: none;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  color: #757575;
+  background: white;
+  cursor: pointer;
+}
+
+.boxSocials {
+  display: flex;
+  color: #757575;
+  align-items: "center";
+  justify-content: center;
+
+  max-height: 24px;
+  max-width: 24px;
+
+  height: auto;
+  cursor: pointer;
+}
+
+.topLogo {
+  background-image: url("/assets/WOW-logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  width: 140px;
+  height: 50px;
+  cursor: pointer;
+}

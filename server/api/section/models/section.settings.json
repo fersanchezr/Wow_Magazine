@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sections",
+  "info": {
+    "name": "Section",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Section": {
+      "type": "string"
+    },
+    "Color": {
+      "type": "string"
+    },
+    "view": {
+      "model": "views"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "Content": {
+      "collection": "notes"
+    },
+    "esquema": {
+      "type": "enumeration",
+      "enum": [
+        "SchemaA",
+        "SchemaB",
+        "SchemaC",
+        "SchemaD",
+        "SchemaE",
+        "SchemaF",
+        "Jumbo",
+        "SectionBar",
+        "WOWPlay",
+        "Horoscopo",
+        "Squad",
+        "Widget",
+        "StickyBanner"
+      ]
+    },
+    "start": {
+      "type": "string"
+    },
+    "count": {
+      "type": "string"
+    }
+  }
+}

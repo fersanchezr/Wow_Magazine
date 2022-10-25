@@ -1,0 +1,43 @@
+.mainFlex {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+@media (min-width: 990px) {
+  .mainFlex {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.menuItems:hover {
+  color: #e32b6c;
+}
+
+.menuItems {
+  font-weight: 400;
+  font-size: 11px;
+  margin-bottom: 12px;
+  color: #969696;
+}
+
+@media (min-width: 990px) {
+  .menuItems {
+    margin-bottom: 0px;
+  }
+}
+
+.plainText {
+  font-weight: 400;
+  font-size: 11px;
+  margin-bottom: 12px;
+  color: #969696;
+}
+
+@media (min-width: 990px) {
+  .plainText {
+    margin-bottom: 0px;
+  }
+}

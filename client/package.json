@@ -1,0 +1,35 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.9",
+    "@chakra-ui/react": "^2.3.2",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fontsource/inter": "^4.5.12",
+    "@lottiefiles/react-lottie-player": "^3.4.7",
+    "animate.css": "^4.1.1",
+    "axios": "^0.27.2",
+    "embla-carousel": "^7.0.3",
+    "embla-carousel-react": "^7.0.3",
+    "force": "^0.0.3",
+    "framer-motion": "^7.3.2",
+    "next": "12.2.5",
+    "nprogress": "^0.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-elastic-carousel": "^0.11.5",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5"
+  }
+}

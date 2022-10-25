@@ -1,0 +1,9 @@
+.container {
+  height: calc(100vh-100px);
+}
+
+@media (max-width: 768px) {
+  .jumbo {
+    margin: 0;
+  }
+}

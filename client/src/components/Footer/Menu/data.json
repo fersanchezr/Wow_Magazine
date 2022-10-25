@@ -1,0 +1,43 @@
+[
+{
+    "category": "actualidad",
+    "subcategory": ["últimas noticias", "entretenimiento", "squad", "historias", "wow play"],
+    "url":"/actualidad"
+},
+{
+    "category": "calidad de vida",
+    "subcategory": ["espiritualidad", "sustentabilidad", "mi cuerpo", "salud mental", "astrología"],
+    "url":"/calidad-de-vida"
+},
+{
+    "category": "liderazgo",
+    "subcategory": ["empoderamiento", "finanzas", "diversidad"],
+    "url":"/liderazgo"
+},
+{
+    "category": "guía wow",
+    "subcategory": ["viajes", "recorridos", "experiencias", "movida cultural"],
+    "url":"/guia-wow"
+},
+{
+    "category": "amores",
+    "subcategory": ["sexo", "relaciones", "maternidad", "citas"],
+    "url":"/amores"
+},
+{
+    "category": "homefullness",
+    "subcategory": ["decoración", "cocina", "refugio wow"],
+    "url":"/homefullness"
+},
+{
+    "category": "tendencias",
+    "subcategory": ["moda", "belleza"],
+    "url":"/tendencias"
+},
+{
+    "category": "makers",
+    "subcategory": ["moda", "belleza"],
+    "url":"/makers"
+}
+]
+    

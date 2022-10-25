@@ -1,0 +1,71 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+.h2Span {
+  font-family: "Eiko-Heavy";
+}
+
+.hideIcons {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.showIcons {
+  visibility: visible;
+  opacity: 1;
+}
+
+.thin {
+  font-family: "Eiko-Thin";
+}
+
+/* square buttons */
+.rec-arrow {
+  background-color: transparent !important;
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: none !important;
+  font-size: 1.1rem !important;
+  color: #e32b6c !important;
+  width: 1.7rem !important;
+  height: 1.7rem !important;
+  min-width: 1.7rem !important;
+  line-height: 1.7rem !important;
+  border-radius: 0% !important;
+}
+/* round buttons on hover */
+.rec.rec-arrow:hover {
+  border-radius: 20%;
+  background-color: #55001e;
+}
+.rec-arrow:hover:not(:disabled) {
+  transform: scale(1.2);
+  transition: ease-in 200ms;
+}
+.rec-dot_active {
+  background-color: #e32b6c !important;
+  box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.347) !important;
+}

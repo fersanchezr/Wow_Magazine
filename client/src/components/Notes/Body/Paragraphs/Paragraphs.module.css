@@ -1,0 +1,12 @@
+.bigCharacter::first-letter{
+    font-size: 4em;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-right: 5px;
+    color:#e32b6c;
+    font-family: "Eiko-medium";
+}
+.breakWord{
+    word-wrap: break-word;
+}

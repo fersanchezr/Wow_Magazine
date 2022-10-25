@@ -1,0 +1,62 @@
+[
+    {
+        "name": "aries",
+        "period": "del 21/03 al 20/04",
+        "image": "https://bucket.somosohlala.com.ar/s3fs-public/styles/horoscope_cards/public/2022-06/ARIES_0.jpg.webp?itok=Iw303nVP"
+    },
+    {
+        "name": "tauro",
+        "period": "del 21/04 al 20/05",
+        "image": "https://bucket.somosohlala.com.ar/s3fs-public/styles/horoscope_cards/public/2022-06/TAURO_0.jpg.webp?itok=u7VcS-If"
+    },
+    {
+        "name": "geminis",
+        "period": "del 21/05 al 21/06",
+        "image": "https://bucket.somosohlala.com.ar/s3fs-public/styles/img_internal/public/2022-06/G%C3%89MINIS.jpg.webp?itok=d8WovZDv"
+    },
+    {
+        "name": "cancer",
+        "period": "del 22/06 al 21/07",
+        "image": "https://bucket.somosohlala.com.ar/s3fs-public/styles/img_internal/public/2022-06/CANCER_0.jpg.webp?itok=GHg1BNgS"
+    },
+    {
+        "name": "leo",
+        "period": "del 22/07 al 23/08",
+        "image": "https://bucket.somosohlala.com.ar/s3fs-public/styles/img_internal/public/2022-06/LEO_0.jpg.webp?itok=5RfW2EQn"
+    },
+    {
+        "name": "virgo",
+        "period": "del 24/08 al 23/09",
+        "image": "https://bucket.somosohlala.com.ar/s3fs-public/styles/horoscope_cards/public/2022-06/VIRGO_0.jpg.webp?itok=YS2FAnun"
+    },
+    {
+        "name": "libra",
+        "period": "del 24/09 al 22/10",
+        "image": "https://bucket.somosohlala.com.ar/s3fs-public/styles/horoscope_cards/public/2022-06/LIBRA_0.jpg.webp?itok=eFTb3TIk"
+    },
+    {
+        "name": "escorpio",
+        "period": "del 23/10 al 22/11",
+        "image": "https://bucket.somosohlala.com.ar/s3fs-public/styles/horoscope_cards/public/2022-06/ESCORPIO_0.jpg.webp?itok=RR9KuNdv"
+    },
+    {
+        "name": "sagitario",
+        "period": "del 23/11 al 21/12",
+        "image": "https://bucket.somosohlala.com.ar/s3fs-public/styles/horoscope_cards/public/2022-06/SAGITARIO_0.jpg.webp?itok=xPjBrA-m"
+    },
+    {
+        "name": "capricornio",
+        "period": "del 22/12 al 20/01",
+        "image": "https://bucket.somosohlala.com.ar/s3fs-public/styles/horoscope_cards/public/2022-06/CAPRICORNIO_0.jpg.webp?itok=nY9Zi077"
+    },
+    {
+        "name": "acuario",
+        "period": "del 21/01 al 19/02",
+        "image": "https://bucket.somosohlala.com.ar/s3fs-public/styles/horoscope_cards/public/2022-06/ACUARIO_1.jpg.webp?itok=IPzwRrGz"
+    },
+    {
+        "name": "piscis",
+        "period": "del 20/02 al 20/03",
+        "image": "https://bucket.somosohlala.com.ar/s3fs-public/styles/horoscope_cards/public/2022-06/PISCIS_0.jpg.webp?itok=nKUCHDDE"
+    }
+]

@@ -1,0 +1,36 @@
+.boxSocials {
+  display: flex;
+  align-items: "center";
+  justify-content: center;
+  margin-right: 15px;
+  max-height: 24px;
+  max-width: 24px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.newsText {
+  font-size: 16px;
+  width: 80%;
+  text-align: center;
+  border: 1px solid rgb(117, 117, 117);
+  border-radius: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+@media (min-width: 990px) {
+  .newsText {
+    font-size: 0.9375rem;
+    width: 100%;
+    text-align: left;
+    border: var(--chakra-borders-none);
+    border-radius: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.newsText:hover {
+  color: #e32b6c;
+}

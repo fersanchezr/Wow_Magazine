@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "Categories",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "sub_categories": {
+      "collection": "sub-categories"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "route": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "string"
+    },
+    "notes": {
+      "collection": "notes"
+    }
+  }
+}

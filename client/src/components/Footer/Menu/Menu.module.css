@@ -1,0 +1,30 @@
+.titleFlex {
+  font-weight: 600;
+  font-size: 0.9375rem;
+  line-height: 18px;
+  color: #4d4d4d;
+  margin-bottom: 10px;
+}
+
+.mainGrid {
+  width: 50%;
+}
+
+@media (min-width: 990px) {
+  .mainGrid {
+    width: auto;
+  }
+}
+
+.menuItems {
+  color: #969696;
+  text-transform: capitalize;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 10px;
+}
+
+.menuItems:hover {
+  color: #e32b6c;
+}
