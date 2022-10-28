@@ -21,7 +21,7 @@ const LoadMore = ({ subcategoryData, subcategory, id }) => {
     setPostNum((prevPostNum) => prevPostNum + 3); // 3 is the number of posts you want to load per click
     axios
       .get(
-        `https://strapi-production-b364.up.railway.app/notes?route_contains=${subcategory}&_start=${data.length}&_limit=4`,
+        `http://localhost:1337/notes?route_contains=${subcategory}&_start=${data.length}&_limit=4`,
       )
       .then((res) =>
         setData(data.concat(res.data.filter((note) => note._id !== id))),

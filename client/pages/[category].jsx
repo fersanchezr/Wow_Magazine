@@ -63,7 +63,7 @@ const Category = ({ content }) => {
 export default Category;
 
 export async function getServerSideProps({ params: { category } }) {
-  const res = await axios.get("https://strapi-production-b364.up.railway.app/categories");
+  const res = await axios.get("http://localhost:1337/categories");
   const content = await res.data.find((element) => element.route === category);
 
   return {

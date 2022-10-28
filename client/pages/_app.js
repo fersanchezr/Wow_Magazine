@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     axios
-      .get("https://strapi-production-b364.up.railway.app/banners")
+      .get("http://localhost:1337/banners")
       .then((res) => setBanners(res.data));
   }, []);
 

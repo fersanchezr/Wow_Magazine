@@ -42,7 +42,7 @@ export default results;
 
 export async function getServerSideProps({ query: { search } }) {
   const res = await axios.get(
-    `https://strapi-production-b364.up.railway.app/notes?Title_contains=${search}`,
+    `http://localhost:1337/notes?Title_contains=${search}`,
   );
   const results = await res.data;
 
